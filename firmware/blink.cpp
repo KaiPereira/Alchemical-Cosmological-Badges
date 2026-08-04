@@ -1,36 +1,103 @@
+#define FUNCONF_SYSTICK_USE_HCLK 1
 #include "ch32v003fun.h"
+#define WS2812BSIMPLE_IMPLEMENTATION
+#include "ws2812b_simple.h"
+
+#define NUM_PIXELS 14
+#define LED_PIN    0        // change to match your data pin
+#define LED_PORT   GPIOC    // change to match your data port
+
+// Byte order is G, R, B (matches your original {0x00, 0xFF, 0x00} = green example)
+#define YELLOW  0xFF, 0xFF, 0x00   // G, R, B
+#define WHITE   0xFF, 0xFF, 0xFF
+#define ORANGE  0x8C, 0xFF, 0x00   // approx RGB(255,140,0)
+#define OFF     0x00, 0x00, 0x00
+
+uint8_t leds[NUM_PIXELS * 3];
 
 __attribute__((noinline)) void busywait(int x) {
-   for (volatile int i = 0; i < x; i++) {
+    for (volatile int i = 0; i < x; i++) {
     }
- }
+}
+
+void set_pixel(int index, uint8_t g, uint8_t r, uint8_t b) {
+    leds[index * 3 + 0] = g;
+    leds[index * 3 + 1] = r;
+    leds[index * 3 + 2] = b;
+}
+
+void fill(uint8_t g, uint8_t r, uint8_t b) {
+    for (int i = 0; i < NUM_PIXELS; i++) {
+        set_pixel(i, g, r, b);
+    }
+}
+
+void show(void) {
+    WS2812BSimpleSend(LED_PORT, LED_PIN, leds, sizeof(leds));
+}
+
+void color_chase(uint8_t g, uint8_t r, uint8_t b, int wait_ms) {
+    fill(OFF);
+    for (int i = 0; i < NUM_PIXELS; i++) {
+        set_pixel(i, g, r, b);
+        show();
+        Delay_Ms(wait_ms);
+    }
+    Delay_Ms(500);
+}
+
+// Cycles smoothly between yellow -> white -> orange -> back to yellow
+void warm_cycle(int wait_ms) {
+    // yellow -> white
+    for (int step = 0; step <= 255; step += 5) {
+        uint8_t g = 255;
+        uint8_t r = 255;
+        uint8_t b = step;
+        fill(g, r, b);
+        show();
+        Delay_Ms(wait_ms);
+    }
+    // white -> orange
+    for (int step = 0; step <= 255; step += 5) {
+        uint8_t g = 255 - ((step * (255 - 140)) / 255);
+        uint8_t r = 255;
+        uint8_t b = 255 - step;
+        fill(g, r, b);
+        show();
+        Delay_Ms(wait_ms);
+    }
+    // orange -> yellow
+    for (int step = 0; step <= 255; step += 5) {
+        uint8_t g = 140 + ((step * (255 - 140)) / 255);
+        uint8_t r = 255;
+        uint8_t b = 0;
+        fill(g, r, b);
+        show();
+        Delay_Ms(wait_ms);
+    }
+}
 
 int main()
 {
-  SystemInit();
+    SystemInit();
 
-  // Enable GPIOD.
-  RCC->APB2PCENR |= RCC_APB2Periph_GPIOD;
+    while (1) {
+        fill(YELLOW);
+        show();
+        Delay_Ms(1000);
 
-  // GPIO D0 Push-Pull, 10MHz Slew Rate Setting
-  GPIOD->CFGLR &= ~(0xf<<(4*0));
-  GPIOD->CFGLR |= (GPIO_Speed_50MHz | GPIO_CNF_OUT_PP)<<(4*0);
+        fill(WHITE);
+        show();
+        Delay_Ms(1000);
 
-  GPIOD->CFGLR &= ~(0xf<<(4*4));
-  GPIOD->CFGLR |= (GPIO_Speed_50MHz | GPIO_CNF_OUT_PP)<<(4*4);
+        fill(ORANGE);
+        show();
+        Delay_Ms(1000);
 
-  for (int i = 0; i < 20; i++) {
-    GPIOD->BSHR  = (1<<0) | (1<<4);
-    busywait(80000);
-    GPIOD->BSHR  = (1<<(16+0)) | (1<<(16+4));
-    busywait(80000);
-  }
+        color_chase(YELLOW, 100);
+        color_chase(WHITE, 100);
+        color_chase(ORANGE, 100);
 
-  while(1)
-  {
-    GPIOD->BSHR = (1<<0) | (1<<4);   // Turn on GPIOD0
-    busywait(300000);
-    GPIOD->BSHR = (1<<(16+0)) | (1<<(16+4)); // Turn off GPIOD0
-    busywait(300000);
-  }
+        warm_cycle(10);
+    }
 }

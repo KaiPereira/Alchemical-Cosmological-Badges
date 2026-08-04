@@ -6253,7 +6253,7 @@
 			(at -0.000001 2.000005 140)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6c5b9c5a-f0a4-4ed5-b3d3-a017c3067a1a")
+			(uuid "47a0b1eb-8def-433c-9fb9-840bb344bc4f")
 			(effects
 				(font
 					(size 1 1)
@@ -6265,7 +6265,7 @@
 		(property "Value" "WS2812B-2020"
 			(at 0 -2.2 140)
 			(layer "B.Fab")
-			(uuid "d966b626-2dc6-4581-ab9a-2ef592a2350e")
+			(uuid "820faf32-dc92-4c90-9332-cfb811ea0c87")
 			(effects
 				(font
 					(size 1 1)
@@ -6279,7 +6279,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0399283a-7c88-4622-bc5d-64150b8107a0")
+			(uuid "af37ba5a-0d6e-4ba0-86af-faa2ccdf939a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6293,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "972746df-9d0f-4813-9e6e-7daee2456181")
+			(uuid "3307f575-2593-4da0-aa5d-2426fc3ed7de")
 			(effects
 				(font
 					(size 1.27 1.27)
