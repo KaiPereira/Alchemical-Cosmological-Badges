@@ -7,7 +7,7 @@ These are alchemical-cosmological PCB hackathon badges I designed in a day for t
 
 ## PCB Design
 
-There's 2 different PCB's; the outer ring and the inner sun. The 2 outer rings are soldered onto the testpoints of the inner one with the second outer ring rotated 180 degree's to look more 3D.
+There's 2 different PCB's: the outer ring and the inner sun. The 2 outer rings are soldered onto the testpoints of the inner one with the second outer ring rotated 180 degree's to look more 3D.
 
 The rings have exposed soldermask so that the neopixels can shine through, and you actually only need to solder neopixels onto one ring to get the effect.
 
@@ -24,7 +24,7 @@ I'd also suggest putting a hole for your lanyard, because currently I just have 
 
 Each full badge costs about $10 at MOQ, but I'm sure you could get that down to under $3 if you create quite a few at once.
 
-If you want to manufacture the boards, all of their production and development files are in their relative folder. I'd suggest getting the boards from JLCPCB with ENIG and a stencil, and then buying the components from LCSC and hand soldering. 
+If you want to manufacture the boards, all of their production and development files are in their relative folder. I'd suggest getting the boards from JLCPCB with ENIG and a stencil for the inner board, and then buying the components from LCSC and hand soldering. 
 
 All the design files are also open-source if you want to make modifications so that they're unique to you, so just go crazy!!
 
