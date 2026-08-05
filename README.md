@@ -13,6 +13,8 @@ The rings have exposed soldermask so that the neopixels can shine through, and y
 
 There's also a battery connector on the top-left corner to attach a small battery with a voltage between 2.7V - 5V, and I'd just suggest a small LiPo, that can potentially even slot in-between the boards.
 
+I'd also suggest putting a hole for your lanyard, because currently I just have a string wrapped around the board which looks cool, but isn't the most convenient for assembly. 
+
 <img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/910b8b80-0d3c-4180-aaf2-cf9fd625cc9d" />
 <img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/5fd57a58-db8a-4559-83e1-74d17e690e6d" />
 <img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/c8b2e5b3-a68b-479d-85fd-0ee0cac41bb5" />
