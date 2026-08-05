@@ -12,6 +12,7 @@
 #define WHITE   0xFF, 0xFF, 0xFF
 #define ORANGE  0x8C, 0xFF, 0x00   // approx RGB(255,140,0)
 #define OFF     0x00, 0x00, 0x00
+#define BRIGHTNESS 64
 
 uint8_t leds[NUM_PIXELS * 3];
 
@@ -20,10 +21,14 @@ __attribute__((noinline)) void busywait(int x) {
     }
 }
 
+static inline uint8_t scale8(uint8_t val, uint8_t scale) {
+    return ((uint16_t)val * (uint16_t)scale) >> 8;
+}
+
 void set_pixel(int index, uint8_t g, uint8_t r, uint8_t b) {
-    leds[index * 3 + 0] = g;
-    leds[index * 3 + 1] = r;
-    leds[index * 3 + 2] = b;
+    leds[index * 3 + 0] = scale8(g, BRIGHTNESS);
+    leds[index * 3 + 1] = scale8(r, BRIGHTNESS);
+    leds[index * 3 + 2] = scale8(b, BRIGHTNESS);
 }
 
 void fill(uint8_t g, uint8_t r, uint8_t b) {
@@ -82,22 +87,8 @@ int main()
     SystemInit();
 
     while (1) {
-        fill(YELLOW);
-        show();
-        Delay_Ms(1000);
-
-        fill(WHITE);
-        show();
-        Delay_Ms(1000);
-
         fill(ORANGE);
         show();
         Delay_Ms(1000);
-
-        color_chase(YELLOW, 100);
-        color_chase(WHITE, 100);
-        color_chase(ORANGE, 100);
-
-        warm_cycle(10);
     }
 }
