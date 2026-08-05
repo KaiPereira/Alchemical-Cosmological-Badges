@@ -1,11 +1,10 @@
-# Hackathon Badges
+# Alchemical-Cosmological Badges
 
 These are alchemical, cosmological, PCB hackathon badges I designed in a day for the Fallout hackathon in Shenzhen. Powered by the CH32 MCU, they stack ontop of each other using testpoints and shine through each other to create a sun effect and have cool designs on them!
 
-<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/2e13b562-8785-4109-b03b-9bc48d96070e" />
-<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/989c6c31-d4f2-4696-b423-e04b1855f972" />
-<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/bc7d7484-5191-41c4-9071-a6032ee697bd" />
-<img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/b0008b2a-7291-4c0b-8e71-e7d3ae4cc952" />
+<img width="1148" height="1000" alt="IMG_2615 1" src="https://github.com/user-attachments/assets/6faa6783-c593-44d4-8d61-3aee0b9c9191" />
+<img width="1148" height="1000" alt="IMG_2618 1" src="https://github.com/user-attachments/assets/148a21dc-8aed-410e-a3df-1eabf4387e3f" />
+
 
 ## Manufacturing
 
