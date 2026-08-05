@@ -1,6 +1,6 @@
 # Alchemical-Cosmological Badges
 
-These are alchemical, cosmological, PCB hackathon badges I designed in a day for the Fallout hackathon in Shenzhen. Powered by the CH32 MCU, they stack ontop of each other using testpoints and shine through each other to create a sun effect and have cool designs on them!
+These are alchemical-cosmological PCB hackathon badges I designed in a day for the Fallout hackathon in Shenzhen, China. It's 3 PCB's stacked on-top of each other using testpoints and it's powered by the 10 cent, CH32V003 MCU, with WS2812B neopixels.
 
 <img width="1148" height="1000" alt="IMG_2615 1" src="https://github.com/user-attachments/assets/6faa6783-c593-44d4-8d61-3aee0b9c9191" />
 <img width="1148" height="1000" alt="IMG_2618 1" src="https://github.com/user-attachments/assets/148a21dc-8aed-410e-a3df-1eabf4387e3f" />
