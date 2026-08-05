@@ -7,11 +7,11 @@ These are alchemical-cosmological PCB hackathon badges I designed in a day for t
 
 ## PCB Design
 
-There's 2 different PCB's; the outer ring and the inner sun. The 2 outer rings are soldered onto the testpoints with the second one rotated 180 degree's to look more 3D.
+There's 2 different PCB's; the outer ring and the inner sun. The 2 outer rings are soldered onto the testpoints of the inner one with the second outer ring rotated 180 degree's to look more 3D.
 
 The rings have exposed soldermask so that the neopixels can shine through, and you actually only need to solder neopixels onto one ring to get the effect.
 
-There's also a battery connector on the top-left corner to attach a small battery with a voltage between 2.7V - 5V, and I'd just suggest a small LiPo.
+There's also a battery connector on the top-left corner to attach a small battery with a voltage between 2.7V - 5V, and I'd just suggest a small LiPo, that can potentially even slot in-between the boards.
 
 <img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/910b8b80-0d3c-4180-aaf2-cf9fd625cc9d" />
 <img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/5fd57a58-db8a-4559-83e1-74d17e690e6d" />
@@ -20,11 +20,13 @@ There's also a battery connector on the top-left corner to attach a small batter
 
 ## Manufacturing
 
-Each full badge costs about $10 at MOQ, but I'm sure you could get that down to under $4 if you create quite a few at once.
+Each full badge costs about $10 at MOQ, but I'm sure you could get that down to under $3 if you create quite a few at once.
 
 If you want to manufacture the boards, all of their production and development files are in their relative folder. I'd suggest getting the boards from JLCPCB with ENIG and a stencil, and then buying the components from LCSC and hand soldering. 
 
 All the design files are also open-source if you want to make modifications so that they're unique to you, so just go crazy!!
+
+These boards were designed really fast and made to be really cheap because of a limited budget, so produce them at your own discretion.
 
 ## Firmware
 
