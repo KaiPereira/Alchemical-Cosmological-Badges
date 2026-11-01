@@ -679,6 +679,12 @@
 		(uuid "15034f10-8546-4569-8853-e76ed5c4d015")
 	)
 	(junction
+		(at 130.81 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f3d88d3-97b8-49be-9992-5742809a0460")
+	)
+	(junction
 		(at 196.85 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -781,14 +787,32 @@
 		(uuid "c98e4aa8-7afe-439b-be58-386719f53a6c")
 	)
 	(junction
+		(at 130.81 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa7815c-068b-430f-b9c8-2f704ed311d1")
+	)
+	(junction
+		(at 101.6 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e67c7e65-bcf9-4aba-b6d0-3999f47eb228")
+	)
+	(junction
+		(at 160.02 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6106153-c965-4a17-8d4a-1e5a48957927")
+	)
+	(junction
 		(at 72.39 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe6ef3c6-4483-4989-b576-c75964195d04")
 	)
 	(no_connect
-		(at 109.22 142.24)
-		(uuid "2338bbf3-692a-4110-a5d5-71ba8a32cf59")
+		(at 167.64 142.24)
+		(uuid "880bc370-ecf0-4578-a7fb-7832928a6a73")
 	)
 	(wire
 		(pts
@@ -942,6 +966,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae987e9-bba5-4168-99e0-08844a8b5e9a")
+	)
+	(wire
+		(pts
 			(xy 48.26 83.82) (xy 64.77 83.82)
 		)
 		(stroke
@@ -959,6 +993,16 @@
 			(type default)
 		)
 		(uuid "52a8365a-1b95-420c-af04-06b8b5f8dff6")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 109.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a75b26a-0b87-4aed-9e0b-db932ed121e2")
 	)
 	(wire
 		(pts
@@ -1092,6 +1136,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 149.86) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72adc00-81d3-4239-8fe8-775b167a3ae8")
+	)
+	(wire
+		(pts
 			(xy 133.35 91.44) (xy 165.1 91.44)
 		)
 		(stroke
@@ -1149,6 +1203,16 @@
 			(type default)
 		)
 		(uuid "d1dad3f7-36c5-4ded-853c-105d5a17ff3d")
+	)
+	(wire
+		(pts
+			(xy 130.81 134.62) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30f17ee-5a46-4236-9fd2-90672fdbf066")
 	)
 	(wire
 		(pts
@@ -1222,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 152.4) (xy 101.6 149.86)
+			(xy 160.02 152.4) (xy 160.02 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1289,6 +1353,16 @@
 			(type default)
 		)
 		(uuid "fd056893-4a85-4fe1-bdff-514f353ea5ce")
+	)
+	(wire
+		(pts
+			(xy 101.6 134.62) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe605fd2-0d45-48d5-9697-b25a7ccadd81")
 	)
 	(label "LED_DIN"
 		(at 50.8 49.53 0)
@@ -1978,7 +2052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 152.4 0)
+		(at 160.02 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1989,7 +2063,7 @@
 		(fields_autoplaced yes)
 		(uuid "32e7d8a9-6474-41b6-b33e-e6bf49120a85")
 		(property "Reference" "#PWR06"
-			(at 101.6 158.75 0)
+			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +2074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 157.48 0)
+			(at 160.02 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2010,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 152.4 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 152.4 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 152.4 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,6 +2123,94 @@
 			(project "hackathon-badge"
 				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 160.02 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "345f0250-2492-4838-8638-3d601c90af5c")
+		(property "Reference" "D16"
+			(at 173.99 135.8198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 173.99 138.3598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 161.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 162.56 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 160.02 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02ef4901-96b1-43e3-9b3f-1c0078b71f77")
+		)
+		(pin "2"
+			(uuid "be577750-357c-4563-b6a6-6a08c1660454")
+		)
+		(pin "4"
+			(uuid "4c6cb33d-ecf1-42ec-aaae-04988085e807")
+		)
+		(pin "3"
+			(uuid "1d598ce6-2421-420f-9ab9-c776978e4cd1")
+		)
+		(instances
+			(project "hackathon-badge"
+				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2805,6 +2967,94 @@
 			(project "hackathon-badge"
 				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 130.81 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d9ea3d-3c54-40c4-8ce5-21af68fa279e")
+		(property "Reference" "D15"
+			(at 144.78 135.8198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.78 138.3598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 132.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 133.35 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 130.81 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ab562fc-cd21-4058-b710-776fc6601a18")
+		)
+		(pin "2"
+			(uuid "3199b19e-ab14-44c9-bf18-2f6b1b324920")
+		)
+		(pin "4"
+			(uuid "9b36f649-cc02-4078-b252-cf6c0df9ddd7")
+		)
+		(pin "3"
+			(uuid "69a89949-67ec-4ace-893a-6ee806dcf872")
+		)
+		(instances
+			(project "hackathon-badge"
+				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
+					(reference "D15")
 					(unit 1)
 				)
 			)
