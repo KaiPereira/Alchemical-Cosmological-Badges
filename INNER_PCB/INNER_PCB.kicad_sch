@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 171.45 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3f43dd-68d6-4682-9469-9093c8f83870")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ef026e-77d7-45f4-810b-483b971e1969")
+	)
+	(wire
+		(pts
 			(xy 116.84 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -14,6 +34,16 @@
 			(type default)
 		)
 		(uuid "7c2110f9-6f24-4788-8209-f78b7bc3e8bb")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eb8484-1b00-432f-aadd-e7cdae34d91b")
 	)
 	(sheet
 		(at 176.53 59.69)
@@ -136,6 +166,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NFC_GPO" input
+			(at 171.45 78.74 0)
+			(uuid "1a4f109f-b9fa-4bd4-a4e0-f52c50bf5b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 171.45 83.82 0)
+			(uuid "64c279cb-e95f-4a60-ae2e-b34758e5a76d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 171.45 88.9 0)
+			(uuid "734d84da-eceb-4174-8752-0cafb225b671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
