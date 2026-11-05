@@ -553,7 +553,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -667,13 +667,29 @@
         "uuid": "a41da898-8d57-41ae-af0b-6ba73fc8dabb"
       }
     ],
-    "used_designators": "BT1",
+    "used_designators": "#PWR1-48,AE1,BT1,C1-4,D1-8,J1,R1-12,SW1,TP1-8,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "a41da898-8d57-41ae-af0b-6ba73fc8dabb",
       "Root"
+    ],
+    [
+      "91267d8a-6d6e-4443-a867-fa4798a8e5d9",
+      "LEDs"
+    ],
+    [
+      "3b77a48b-20ef-4bcb-b38f-708d362f286f",
+      "Connecting Solder Points"
+    ],
+    [
+      "1da91ae5-c8c2-4a2a-b271-09e2287a6612",
+      "MCU, Programming and Battery"
+    ],
+    [
+      "14552a5a-971a-441b-88b4-7a35b09138ca",
+      "NFC"
     ]
   ],
   "text_variables": {},
