@@ -2206,6 +2206,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C192301"
+			(at 123.19 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b8515aee-c99d-4ac0-bcfd-c96313392db5")
 		)

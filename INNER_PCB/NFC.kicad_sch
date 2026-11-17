@@ -1605,7 +1605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ST25DV16K-JFR6D3"
+		(property "Value" "ST25DV04K-JFR6D3"
 			(at 148.1933 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1639,6 +1639,17 @@
 			)
 		)
 		(property "Description" "Dynamic NFC/RFID tag IC with 16-Kbit EEPROM, UFDFPN-12"
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2654815"
 			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)

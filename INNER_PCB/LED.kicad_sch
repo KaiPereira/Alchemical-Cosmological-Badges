@@ -998,97 +998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 179.07 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23ed5a13-ed23-44a4-a58f-014abaa88235")
-		(property "Reference" "D3"
-			(at 180.6575 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KT-0603Y"
-			(at 180.6575 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 179.07 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 179.07 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40b41e9e-ebae-4aa8-9690-76310abad246")
-		)
-		(pin "1"
-			(uuid "a8e681b2-1e80-4dc5-980d-1bf6f4a313f9")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 71.12 87.63 0)
 		(unit 1)
@@ -1167,8 +1076,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 219.71 87.63 180)
+		(lib_id "Device:R")
+		(at 80.01 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1177,9 +1086,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ef35c30-72cb-43d1-b3de-293acefd64bf")
-		(property "Reference" "D4"
-			(at 221.2975 80.01 0)
+		(uuid "3ee013de-3a79-4b8c-abe7-7633ae489c6b")
+		(property "Reference" "R5"
+			(at 80.01 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1188,8 +1097,8 @@
 				)
 			)
 		)
-		(property "Value" "KT-0603Y"
-			(at 221.2975 82.55 0)
+		(property "Value" "2k"
+			(at 80.01 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1198,8 +1107,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 219.71 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1210,7 +1119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 87.63 0)
+			(at 80.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1220,8 +1129,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 219.71 87.63 0)
+		(property "Description" "Resistor"
+			(at 80.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1231,8 +1140,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 87.63 0)
+		(property "JLCPCB Part #" "C4109"
+			(at 80.01 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1243,15 +1152,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b6ea789-a28d-4ea2-b1ba-c056703a3a05")
+			(uuid "0ff723d7-5ea0-49af-abb6-3be9c7f06258")
 		)
 		(pin "1"
-			(uuid "cb436246-0ad6-4fcd-b615-d473069654eb")
+			(uuid "605b1615-2755-49d0-9086-14c7a79459de")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1268,7 +1177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e56079f-23af-4ca7-92f4-f34523b6a629")
+		(uuid "5263cefc-4dd3-4048-9af7-5f34c2a01382")
 		(property "Reference" "D5"
 			(at 93.0275 99.06 0)
 			(show_name no)
@@ -1333,96 +1242,27 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "ee9c1442-13dd-4148-9fda-b05d99cae257")
+			(uuid "c55cfacc-04e6-48e8-a758-e65b152a48f5")
 		)
 		(pin "1"
-			(uuid "11d29a2e-09e5-4588-b1e4-1ccbafd8d02a")
+			(uuid "9bd98338-0e4d-41a3-a16f-6b0cecb750c3")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54f3462a-acb7-4a8c-9263-320d59178faf")
-		(property "Reference" "R4"
-			(at 208.28 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 208.28 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 208.28 89.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0901a5d0-7d9a-47a0-bd85-18dc47d93e76")
-		)
-		(pin "1"
-			(uuid "818eb425-3139-4938-836c-584e422f52ce")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1507,99 +1347,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 134.62 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61cd94bb-cc1f-4485-abac-a704045541af")
-		(property "Reference" "D2"
-			(at 136.2075 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KT-0603Y"
-			(at 136.2075 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c03eea7a-e175-4944-8729-aff835fb2841")
-		)
-		(pin "1"
-			(uuid "c3217b61-acee-470e-a11c-a9fd1b2c7f3a")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 167.64 106.68 90)
+		(at 208.28 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1608,9 +1357,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65ed19c5-839b-46f7-8a02-fa6c9de72c9c")
-		(property "Reference" "R7"
-			(at 167.64 100.33 90)
+		(uuid "599cfe2b-fa10-48c4-95b8-4fa4f5674853")
+		(property "Reference" "R8"
+			(at 208.28 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1620,7 +1369,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 167.64 102.87 90)
+			(at 208.28 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1630,7 +1379,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.64 108.458 90)
+			(at 208.28 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 106.68 0)
+			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +1401,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 167.64 106.68 0)
+			(at 208.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 208.28 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1663,15 +1423,219 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c6769bf-ca46-44d8-b19f-1f1fff3959ea")
+			(uuid "eb10eb09-a17a-4b7b-a784-24db3f355926")
 		)
 		(pin "1"
-			(uuid "b644bcae-bdfe-4145-b717-ccd211e472e2")
+			(uuid "2fe9e229-15f1-4fd8-8218-e169d42902f8")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R7")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 179.07 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a84a9c-360a-4f39-9c3c-760cda68d25d")
+		(property "Reference" "D7"
+			(at 180.6575 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 180.6575 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1724a49-a6ee-4032-8024-4c4e23b48d36")
+		)
+		(pin "1"
+			(uuid "ec7e5b2f-e53d-4ce8-b8b0-457775ba75af")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 179.07 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c2af4c-a4b1-4f4d-a38f-f42dc2baf4c3")
+		(property "Reference" "D3"
+			(at 180.6575 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 180.6575 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57b53ecc-20e9-4def-b93c-7b1169247ea4")
+		)
+		(pin "1"
+			(uuid "f6503645-7d22-470b-8bc7-8cf773855748")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1757,6 +1721,108 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 219.71 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "859748a8-013f-4ecf-8a9f-684b42ed10d0")
+		(property "Reference" "D4"
+			(at 221.2975 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 221.2975 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd04a712-c867-4d7e-81f4-1473709590be")
+		)
+		(pin "1"
+			(uuid "6009c85e-b5e2-462c-8620-7a0976d51b9d")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 91.44 87.63 180)
 		(unit 1)
 		(body_style 1)
@@ -1831,6 +1897,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf074dcb-a272-429f-9fc6-fb31e8e73c5c")
 		)
@@ -1841,97 +1918,6 @@
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 135.89 106.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6468c7-616c-4a1d-8ed1-2840880ce168")
-		(property "Reference" "D6"
-			(at 137.4775 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KT-0603Y"
-			(at 137.4775 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e561b316-6325-4fd5-a55c-414a2def6fd9")
-		)
-		(pin "1"
-			(uuid "c1221d67-3134-4b17-b160-6a0d77b3d735")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2010,86 +1996,6 @@
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ac5c725-a343-442b-aafc-15ff3c31ebb8")
-		(property "Reference" "R5"
-			(at 80.01 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 80.01 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 108.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b353df37-b96e-46a7-8cf3-a486e5a7c2a4")
-		)
-		(pin "1"
-			(uuid "7fec72fa-a7e8-4a38-a836-cccf3d8995e6")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2175,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 219.71 106.68 180)
+		(at 134.62 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2184,9 +2090,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9df4020b-1a86-4a67-946e-e1adfb742487")
-		(property "Reference" "D8"
-			(at 221.2975 99.06 0)
+		(uuid "9f7a92a9-0d79-41b5-8034-8e0e23c3d559")
+		(property "Reference" "D2"
+			(at 136.2075 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2196,7 +2102,7 @@
 			)
 		)
 		(property "Value" "KT-0603Y"
-			(at 221.2975 101.6 0)
+			(at 136.2075 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2206,7 +2112,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 219.71 106.68 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2217,7 +2123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 106.68 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2228,7 +2134,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 219.71 106.68 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2239,7 +2145,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 106.68 0)
+			(at 134.62 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,15 +2167,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ffbb0e0b-8079-4a69-87c7-6794761b2e4e")
+			(uuid "0c8c3869-7d19-41c6-a38d-d79231e6dad0")
 		)
 		(pin "1"
-			(uuid "9fd7cc37-4631-491c-8eb8-a001b28b936a")
+			(uuid "a9cbac93-8450-4fd9-a4e8-e457a30a1bb4")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2337,6 +2254,199 @@
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a529b00a-68b8-4e88-8525-5f3c104b6432")
+		(property "Reference" "R2"
+			(at 123.19 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 123.19 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 123.19 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "367efa05-f5f1-4977-955e-bbe8cd8d6166")
+		)
+		(pin "1"
+			(uuid "69c531a1-dca3-449e-94ec-ebf0cda440b7")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 219.71 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad02edbd-e451-4454-b54d-3d01ec69b9ef")
+		(property "Reference" "D8"
+			(at 221.2975 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 221.2975 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 219.71 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 219.71 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 219.71 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0c5aafff-6591-4f1e-843c-a17367261152")
+		)
+		(pin "1"
+			(uuid "03ab2525-d3f5-4163-bd73-156e8141f79f")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2688,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 87.63 90)
+		(at 208.28 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2587,9 +2697,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b973d3f7-3a7d-411c-8113-3fc58059c36d")
-		(property "Reference" "R3"
-			(at 167.64 81.28 90)
+		(uuid "b5781a94-0a60-484b-ac8d-ab09bf330fe6")
+		(property "Reference" "R4"
+			(at 208.28 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2599,7 +2709,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 167.64 83.82 90)
+			(at 208.28 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,7 +2719,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.64 89.408 90)
+			(at 208.28 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2620,7 +2730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 87.63 0)
+			(at 208.28 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2741,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 167.64 87.63 0)
+			(at 208.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 208.28 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,15 +2763,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e7031fd-4d63-44fb-af05-d1c21f2b50bc")
+			(uuid "ed214338-dbcc-42cc-8369-c0f1d65c3cec")
 		)
 		(pin "1"
-			(uuid "e68b7fbe-1cbc-4900-949e-24d17bca5b70")
+			(uuid "4a39feb6-ba40-4744-bf43-9df9723800b7")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2729,177 +2850,6 @@
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c027833c-4000-4e88-88bb-5ff1924a6abb")
-		(property "Reference" "R2"
-			(at 123.19 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 123.19 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 89.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6909b6f9-c78c-44a7-9b0c-e885e81ddd49")
-		)
-		(pin "1"
-			(uuid "b15441e9-d077-4ddb-b700-79768d6be47f")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 179.07 106.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2e8bcc2-3d1e-41de-9113-5c4684325629")
-		(property "Reference" "D7"
-			(at 180.6575 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KT-0603Y"
-			(at 180.6575 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 179.07 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 179.07 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31fabdb1-d5d0-4644-aae2-4c46d677dcfa")
-		)
-		(pin "1"
-			(uuid "63b273cf-cfb9-4a14-ae53-219bc1bbd3d8")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 106.68 90)
+		(at 167.64 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3072,9 +3022,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cccc963c-ff48-48b0-9273-59beaf0063db")
-		(property "Reference" "R6"
-			(at 124.46 100.33 90)
+		(uuid "cfbb9361-ddde-488a-b793-92915750dbf8")
+		(property "Reference" "R7"
+			(at 167.64 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3084,7 +3034,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 124.46 102.87 90)
+			(at 167.64 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3094,7 +3044,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 124.46 108.458 90)
+			(at 167.64 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 106.68 0)
+			(at 167.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,7 +3066,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 106.68 0)
+			(at 167.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 167.64 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,95 +3088,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "97086ecc-d46b-440d-bf6e-f21e5cc72b65")
+			(uuid "88763ea6-0c9b-4d90-9142-21931f48d0e6")
 		)
 		(pin "1"
-			(uuid "5f39babc-379f-4d93-88f0-04fc5781418d")
+			(uuid "448447b5-5f86-41e1-8883-47377d59ba10")
 		)
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf10abc0-c01a-4c83-b754-cff4f8d274f0")
-		(property "Reference" "R8"
-			(at 208.28 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 208.28 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 208.28 108.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7abb61cf-7ad0-4fbd-9daa-4b974f76a402")
-		)
-		(pin "1"
-			(uuid "160c639a-7114-4cb5-83d2-eadce286e3e5")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3277,6 +3158,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 80.01 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 80.01 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,6 +3272,199 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 135.89 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67fad7a-74cb-4eda-9cf6-e74167ae3a1c")
+		(property "Reference" "D6"
+			(at 137.4775 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 137.4775 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2be0e77-2984-4f42-89dc-8a4fefda61f7")
+		)
+		(pin "1"
+			(uuid "086383bc-59ee-4b5f-88e8-5c7e94137706")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e882785d-16b3-4aca-a65c-79050126ed9d")
+		(property "Reference" "R3"
+			(at 167.64 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 167.64 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 167.64 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 167.64 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4e20c5a-0cf5-4841-8969-653328b2ba11")
+		)
+		(pin "1"
+			(uuid "d46846bd-c19a-4227-add8-bc856258366f")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 106.68 0)
 		(unit 1)
@@ -3452,6 +3537,97 @@
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe76056b-187a-4618-99d6-f731299e1980")
+		(property "Reference" "R6"
+			(at 124.46 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 124.46 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 124.46 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a97409dc-aca8-4994-8022-695e0401234e")
+		)
+		(pin "1"
+			(uuid "22728d87-53d9-4adb-afbc-c3108799e0c0")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/91267d8a-6d6e-4443-a867-fa4798a8e5d9"
+					(reference "R6")
 					(unit 1)
 				)
 			)
