@@ -337,8 +337,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 340)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe5407ae-6abf-4196-be6d-acd96e6c2938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/cccc963c-ff48-48b0-9273-59beaf0063db")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/fe76056b-187a-4618-99d6-f731299e1980")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -491,6 +504,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ae260dc-1eb5-465a-984c-19d8b2862ccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bfcca76-2587-4ddf-8af0-d7b645d4cd94")
 			(effects
 				(font
 					(size 1 1)
@@ -746,8 +772,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 160)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a644e95f-0b5a-4759-a874-914ded3defeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/61cd94bb-cc1f-4485-abac-a704045541af")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/9f7a92a9-0d79-41b5-8034-8e0e23c3d559")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -1360,8 +1399,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "956519cc-db5b-4c76-8129-70fd5bbd53cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/9df4020b-1a86-4a67-946e-e1adfb742487")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/ad02edbd-e451-4454-b54d-3d01ec69b9ef")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -1571,8 +1623,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "055ce075-4da0-4d97-b6aa-ad3e46884642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/cf10abc0-c01a-4c83-b754-cff4f8d274f0")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/599cfe2b-fa10-48c4-95b8-4fa4f5674853")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -1819,8 +1884,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac6cede0-6274-4e4b-94bf-0fc59b08af15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/23ed5a13-ed23-44a4-a58f-014abaa88235")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/71c2af4c-a4b1-4f4d-a38f-f42dc2baf4c3")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -2030,8 +2108,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffbcc260-b110-49ff-bb23-b813be6465b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/54f3462a-acb7-4a8c-9263-320d59178faf")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/b5781a94-0a60-484b-ac8d-ab09bf330fe6")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -2413,8 +2504,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "907062f2-d8c4-4f78-ace6-fd143b02d755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/65ed19c5-839b-46f7-8a02-fa6c9de72c9c")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/cfbb9361-ddde-488a-b793-92915750dbf8")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -3007,8 +3111,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cf30017-93d8-47f0-9ef9-409c3d351096")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/b973d3f7-3a7d-411c-8113-3fc58059c36d")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/e882785d-16b3-4aca-a65c-79050126ed9d")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -3174,6 +3291,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91e83241-47bf-4316-ae57-11c0c2343c8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "945de165-f33b-4a62-883c-abfb7a9dff92")
 			(effects
 				(font
 					(size 1 1)
@@ -3405,8 +3535,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 340)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e3ef97e-9aa6-4030-82f3-6aef08805507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/8a6468c7-616c-4a1d-8ed1-2840880ce168")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/e67fad7a-74cb-4eda-9cf6-e74167ae3a1c")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -3838,8 +3981,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 160)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ff0a30e-f270-411c-b104-84695d83dd51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/c027833c-4000-4e88-88bb-5ff1924a6abb")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/a529b00a-68b8-4e88-8525-5f3c104b6432")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -5250,8 +5406,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C4109"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "153e764f-3daa-4af9-8aac-9ee14f8caabf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/9ac5c725-a343-442b-aafc-15ff3c31ebb8")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/3ee013de-3a79-4b8c-abe7-7633ae489c6b")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -5424,8 +5593,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1687cb7-3f34-4bec-80e6-6d1b07579f83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/2ef35c30-72cb-43d1-b3de-293acefd64bf")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/859748a8-013f-4ecf-8a9f-684b42ed10d0")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -5890,8 +6072,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be9dab7-fc7b-4b75-ab6e-88153e75a8c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/c2e8bcc2-3d1e-41de-9113-5c4684325629")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/66a84a9c-360a-4f39-9c3c-760cda68d25d")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -6114,8 +6309,21 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2287"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa398da-ef79-475c-9ff3-fcb732e37efa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/3e56079f-23af-4ca7-92f4-f34523b6a629")
+		(path "/91267d8a-6d6e-4443-a867-fa4798a8e5d9/5263cefc-4dd3-4048-9af7-5f34c2a01382")
 		(sheetname "/LEDs/")
 		(sheetfile "LED.kicad_sch")
 		(units
@@ -8349,7 +8557,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ST25DV16K-JFR6D3"
+		(property "Value" "ST25DV04K-JFR6D3"
 			(at 0 -2.450001 45)
 			(layer "B.Fab")
 			(uuid "10e7da4b-cd72-42e7-856c-0fe7bbf165e8")
@@ -8390,6 +8598,20 @@
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "51dbac3f-e483-4609-8053-9b8e506199fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part #" "C2654815"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b10f750d-3754-41a8-9095-6cf1ff9e483f")
 			(effects
 				(font
 					(size 1 1)
@@ -9791,6 +10013,20 @@
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c75daeb0-7245-49f5-ace9-f0f9b208d514")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part #" "C192301"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a411221-fb47-4e3a-897b-70e1db5e3524")
 			(effects
 				(font
 					(size 1 1)
