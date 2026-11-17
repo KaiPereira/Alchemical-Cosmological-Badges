@@ -811,6 +811,10 @@
 		(uuid "fe6ef3c6-4483-4989-b576-c75964195d04")
 	)
 	(no_connect
+		(at 87.63 41.91)
+		(uuid "841185a3-3d2e-46fc-a68a-3c47decbdb7f")
+	)
+	(no_connect
 		(at 167.64 142.24)
 		(uuid "880bc370-ecf0-4578-a7fb-7832928a6a73")
 	)
@@ -1562,84 +1566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 72.39 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b104356-6d44-4ba2-9a3c-6ab92b15bde0")
-		(property "Reference" "#PWR014"
-			(at 72.39 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.7V"
-			(at 72.39 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f56bbf01-01c3-4b59-a244-51ad4f59b370")
-		)
-		(instances
-			(project "hackathon-badge"
-				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 31.75 0)
 		(unit 1)
@@ -1798,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 34.29 48.26 0)
+		(at 72.39 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1807,9 +1733,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26b688cf-e38d-4ab4-99a7-34d1142803b0")
-		(property "Reference" "#PWR012"
-			(at 34.29 52.07 0)
+		(uuid "2341b59d-54c4-4c4b-9b65-e11e742add5e")
+		(property "Reference" "#PWR02"
+			(at 72.39 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,8 +1745,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.7V"
-			(at 34.29 43.18 0)
+		(property "Value" "+3V3"
+			(at 72.39 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1830,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 48.26 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 48.26 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 34.29 48.26 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,12 +1789,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9f35e42-a6a5-4524-9dc5-9dbab34a40a4")
+			(uuid "121c6860-1cda-42ed-9648-aff39895efbe")
 		)
 		(instances
 			(project "hackathon-badge"
 				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2394,6 +2320,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b9d2fb7-b906-41d4-ab0a-7de83269cc87")
+		(property "Reference" "#PWR05"
+			(at 72.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 72.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bdc8900-5c4e-46c2-bb3a-c955d4bb1411")
+		)
+		(instances
+			(project "hackathon-badge"
+				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 63.5 49.53 0)
 		(unit 1)
@@ -2641,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 72.39 132.08 0)
+		(at 34.29 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2650,9 +2654,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9721af1f-6972-4beb-afcb-64f703fe0352")
-		(property "Reference" "#PWR015"
-			(at 72.39 135.89 0)
+		(uuid "9c9c08e7-2ae7-46db-b144-6c315f9d2a05")
+		(property "Reference" "#PWR01"
+			(at 34.29 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,8 +2666,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.7V"
-			(at 72.39 127 0)
+		(property "Value" "+3V3"
+			(at 34.29 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2673,7 +2677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 132.08 0)
+			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 132.08 0)
+			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +2699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 132.08 0)
+			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,90 +2710,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fc867cc-8cb8-4f65-ba2e-3e83113289d1")
+			(uuid "3718bf9e-84dd-465f-b6f3-59e486273b3f")
 		)
 		(instances
 			(project "hackathon-badge"
 				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 72.39 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9faef93d-f590-4f73-82ce-72faf6362e2c")
-		(property "Reference" "#PWR013"
-			(at 72.39 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.7V"
-			(at 72.39 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d537355f-4a1b-4b69-b595-6696f15c409c")
-		)
-		(instances
-			(project "hackathon-badge"
-				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3811,6 +3737,84 @@
 			(project "hackathon-badge"
 				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f772ec67-a9f8-4b55-82c5-57e6da86db1a")
+		(property "Reference" "#PWR08"
+			(at 72.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 72.39 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ceadec20-4c2e-4321-b1ca-25586dc8c696")
+		)
+		(instances
+			(project "hackathon-badge"
+				(path "/1ba10572-93ba-4cf3-af0c-814276c8e858"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
