@@ -445,26 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aae7e45-b7d1-4830-a8cb-6be9beeae0dc")
-	)
-	(wire
-		(pts
-			(xy 176.53 87.63) (xy 176.53 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6807d9c2-b8f6-409a-95c5-54f83a4d8e8c")
-	)
-	(wire
-		(pts
 			(xy 96.52 107.95) (xy 100.33 107.95)
 		)
 		(stroke
@@ -472,6 +452,16 @@
 			(type default)
 		)
 		(uuid "70d32e3f-2de8-46c7-9256-8ef41c5eeac6")
+	)
+	(wire
+		(pts
+			(xy 176.53 109.22) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae46356-9422-4ac8-bb59-396964ae7c71")
 	)
 	(wire
 		(pts
@@ -503,6 +493,16 @@
 		)
 		(uuid "d287a100-5113-4de2-9000-aa7b9245828c")
 	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a4a0ea-d9e1-4b6b-9647-4c9ab4efd05e")
+	)
 	(hierarchical_label "NEOPIXEL_IN"
 		(shape input)
 		(at 96.52 107.95 180)
@@ -516,14 +516,14 @@
 	)
 	(hierarchical_label "NEOPIXEL_IN"
 		(shape input)
-		(at 172.72 106.68 180)
+		(at 172.72 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8068498b-3d2e-494f-862e-cd3e80f1d913")
+		(uuid "7d053c39-0a72-4e22-bf31-7f7ac8300743")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -839,84 +839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eaf50de-0304-4aa9-8c9e-ffeae8047647")
-		(property "Reference" "#PWR021"
-			(at 176.53 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ff214a3-aa3a-4dbf-9edf-aa05f02bb8d1")
-		)
-		(instances
-			(project "INNER_PCB"
-				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/3b77a48b-20ef-4bcb-b38f-708d362f286f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 176.53 106.68 0)
 		(unit 1)
@@ -1007,7 +929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fad4f01-5497-4e3d-a8e6-51465d88a407")
-		(property "Reference" "TP6"
+		(property "Reference" "TP8"
 			(at 204.47 80.5179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1068,7 +990,85 @@
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/3b77a48b-20ef-4bcb-b38f-708d362f286f"
-					(reference "TP6")
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac07bd1-27fc-4aa3-8492-967e61bd159f")
+		(property "Reference" "#PWR023"
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4990088c-5581-4c0a-b47e-d484cf7fa722")
+		)
+		(instances
+			(project "INNER_PCB"
+				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/3b77a48b-20ef-4bcb-b38f-708d362f286f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1322,7 +1322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c24f1f1b-af86-4334-8ec6-06df6b30da6a")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 204.47 112.5219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1383,7 +1383,7 @@
 		(instances
 			(project "INNER_PCB"
 				(path "/a41da898-8d57-41ae-af0b-6ba73fc8dabb/3b77a48b-20ef-4bcb-b38f-708d362f286f"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
