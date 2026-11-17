@@ -1456,6 +1456,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 72.39 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51396e4d-491c-4e34-8243-17c6b6449d00")
 		)
@@ -1534,6 +1545,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1867,6 +1889,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55d34986-472e-4f64-8ca7-2addf9373e81")
 		)
@@ -1945,6 +1978,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 101.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2121,6 +2165,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 160.02 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02ef4901-96b1-43e3-9b3f-1c0078b71f77")
 		)
@@ -2210,6 +2265,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 196.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64653781-f296-49ef-827e-c7e0d0e6e13e")
 		)
@@ -2288,6 +2354,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2533,6 +2610,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 72.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 72.39 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2789,6 +2877,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa136424-d6c2-464e-94e3-1f23c0d33a70")
 		)
@@ -2877,6 +2976,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 194.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e66ca358-ebfd-48ed-9810-ff455ee9e9e1")
 		)
@@ -2955,6 +3065,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 130.81 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 130.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3209,6 +3330,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b76778aa-f4be-4e23-a005-49626dc6a9ad")
 		)
@@ -3287,6 +3419,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3465,6 +3608,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52917434"
+			(at 226.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01e66a7e-f33c-4473-a543-ab8bc4a8b4ac")
 		)
@@ -3544,6 +3698,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 165.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3711,6 +3876,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 133.35 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52917434"
 			(at 133.35 113.03 0)
 			(hide yes)
 			(show_name no)
