@@ -10019,7 +10019,7 @@
 	)
 	(gr_circle
 		(center 154 76)
-		(end 154 72.8)
+		(end 154 73)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -10030,7 +10030,7 @@
 	)
 	(gr_circle
 		(center 154 76)
-		(end 154 72.8)
+		(end 154 73)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -10971,7 +10971,7 @@
 	)
 	(gr_circle
 		(center 154 76)
-		(end 151 76)
+		(end 151.2 76)
 		(stroke
 			(width 0.05)
 			(type default)
