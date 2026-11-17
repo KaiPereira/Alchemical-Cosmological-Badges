@@ -4665,7 +4665,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/27ccc817-5aff-4629-886a-fdb9e3e51cfa")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4975,7 +4975,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/147a0a2c-0d1f-4660-b444-e076c72bb579")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5285,7 +5285,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/84056868-f679-484a-a7cc-a7d03bb2634d")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5595,7 +5595,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/c30d19ea-c13a-438d-a973-6a75ab7874a7")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5905,7 +5905,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/e6cfbabc-5cf2-4d0f-8654-df0231171588")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6215,7 +6215,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/04281683-1d92-4810-bcce-5c26112bf38d")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6511,7 +6511,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7da70a6e-7b33-4efe-837f-38d5128e597a")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6698,7 +6698,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/5aaa4d84-3dda-460c-a2e7-f7a2ed72d98a")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7008,7 +7008,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/590bf775-f6a9-43d1-9ee4-0deaad88396f")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7318,7 +7318,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/b3d9ea3d-3c54-40c4-8ce5-21af68fa279e")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7628,7 +7628,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/bc8a5372-3f0a-4b27-a039-07acebf1acc4")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7938,7 +7938,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/a76f6a39-f071-4cdb-b322-efd5be81b8b9")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8248,7 +8248,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/dfb32ca4-c77e-4764-bf19-624ad6283f75")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8544,7 +8544,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/22cb4612-0628-47e4-ac30-dbb36c235dd6")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8731,7 +8731,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/345f0250-2492-4838-8638-3d601c90af5c")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9041,7 +9041,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/a7c5d1ab-edf9-4f0f-bb5b-4cf78d28c813")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9351,7 +9351,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/2b37dc12-0747-4f1d-bd0c-3c3107524b16")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9647,7 +9647,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c328ff14-4b27-4aa8-ac4c-4d4252edab03")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9834,7 +9834,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/d45afeaa-25c7-4ea2-9361-b22916dd7893")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10130,7 +10130,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8720e42e-5c26-4a83-9745-0a835d1a4fa5")
 		(sheetname "/")
-		(sheetfile "hackathon-badge.kicad_sch")
+		(sheetfile "OUTER_RING.kicad_sch")
 		(units
 			(unit
 				(name "A")

@@ -506,7 +506,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hackathon-badge.kicad_pro",
+    "filename": "OUTER_RING.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -680,8 +680,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "hackathon-badge.kicad_sch",
-        "name": "hackathon-badge",
+        "filename": "OUTER_RING.kicad_sch",
+        "name": "OUTER_RING",
         "uuid": "1ba10572-93ba-4cf3-af0c-814276c8e858"
       }
     ],
@@ -691,7 +691,7 @@
   "sheets": [
     [
       "1ba10572-93ba-4cf3-af0c-814276c8e858",
-      "hackathon-badge"
+      "OUTER_RING"
     ]
   ],
   "text_variables": {},
