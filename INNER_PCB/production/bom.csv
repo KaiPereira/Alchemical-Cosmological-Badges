@@ -1,6 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 AE1,NFC_Coil_Round_D20mm_17T,1,NFC Antenna,
-BT1,BatteryHolder_Keystone_1058_1x2032,1,Coin Cell Battery,C70377
+BT1,BatteryHolder_Keystone_1058_1x2032,1,Coin Cell Battery,C964769
 C2,0603,1,33pF,C1663
 "C3, C4",0603,2,100nF,C14663
 "D1, D2, D3, D4, D5, D6, D7, D8",0603,8,KT-0603Y,C2287
